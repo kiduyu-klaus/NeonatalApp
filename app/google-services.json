@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "275320494815",
+    "firebase_url": "https://neonatal-app.firebaseio.com",
+    "project_id": "neonatal-app",
+    "storage_bucket": "neonatal-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275320494815:android:93fba6cfcad37a8c53676a",
+        "android_client_info": {
+          "package_name": "com.kiduyu.AnitaProject.neonatalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275320494815-nfglb59mm4bd916147evjio1bn62mrtp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kiduyu.AnitaProject.neonatalapp",
+            "certificate_hash": "3ba39af2962b98b1aa6b294bdf81bd32eea77ba7"
+          }
+        },
+        {
+          "client_id": "275320494815-55su70nl139gs6247jnvdpa4heiisvk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1vXv3UIqZN29nvrIjtAsl0tplGgBBhUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275320494815-55su70nl139gs6247jnvdpa4heiisvk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
