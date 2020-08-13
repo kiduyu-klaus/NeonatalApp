@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Neonatal App</string>
+
+    <string name="splash_button1">Join Now</string>
+    <string name="splash_button2">Already have an Account? Login</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
