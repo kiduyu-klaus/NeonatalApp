@@ -6,4 +6,26 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="doctor1views">10</string>
+    <string name="doctor1">Dr. Nadaline Pine</string>
+    <string name="location_doc1">Location: Nyeri</string>
+
+    <string name="doctor2views">41</string>
+    <string name="doctor2">Dr. Michael Maina</string>
+    <string name="location_doc2">Location: Othaya</string>
+
+    <string name="doctor3views">55</string>
+    <string name="doctor3">Dr. Zieng ping Woo</string>
+    <string name="location_doc3">Location: Karatina</string>
+
+    <string name="doctor4views">25</string>
+    <string name="doctor4">Dr. Stella Wambui</string>
+    <string name="location_doc4">Location: Nyeri</string>
+
+    <string name="doctor5views">98</string>
+    <string name="doctor5">Dr. Zachary Ochieng</string>
+    <string name="location_doc5">Location: Muranga</string>
+
+    <string name="io">Something To describe the doctor in question, something small and helpful like his/her place of work of a little back.....</string>
 </resources>

@@ -18,19 +18,20 @@
         <RelativeLayout
             android:id="@+id/relativeLayout_latestListView_adapter"
             android:layout_width="match_parent"
-            android:layout_height="220dp">
+            android:layout_height="200dp">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView_latestListView_adapter"
-                android:layout_width="170dp"
+                android:layout_width="150dp"
                 app:cardCornerRadius="10dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp" />
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/doctor1"/>
 
             </androidx.cardview.widget.CardView>
 
@@ -49,20 +50,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:ellipsize="end"
-                    android:text="@string/app_name"
+                    android:text="@string/doctor1"
                     android:textColor="@color/textView_title_latestListView_adapter"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:ellipsize="end"
-                    android:maxLines="1"
-                    android:text="Format : Epub"
-                    android:textColor="@color/textView_subTitle_latestListView_adapter"
-                    android:textSize="14sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -77,6 +68,7 @@
                         android:layout_height="wrap_content"
                         android:isIndicator="true"
                         android:numStars="5"
+                        android:rating="3.8"
                         android:theme="@style/RatingBar" />
 
                     <RelativeLayout
@@ -98,7 +90,7 @@
                             android:paddingTop="2dp"
                             android:paddingRight="5dp"
                             android:paddingBottom="2dp"
-                            android:text="text"
+                            android:text="@string/doctor1views"
                             android:textColor="@color/textView_rate_latestListView_adapter" />
 
                     </RelativeLayout>
@@ -118,7 +110,7 @@
                         android:layout_gravity="center"
                         android:ellipsize="end"
                         android:maxLines="1"
-                        android:text="Tag: Collections"
+                        android:text="@string/location_doc1"
                         android:textColor="@color/textView_view_LatestListView_adapter"
                         android:textStyle="bold" />
 
@@ -136,9 +128,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="string/view_details"
-                    android:textColor="@color/textView_viewDetail_latestListView_adapter"
-                    android:textStyle="bold" />
+                    android:text="@string/io"
+                    android:textColor="@color/black_alpha_75" />
 
             </LinearLayout>
 
@@ -155,19 +146,20 @@
         <RelativeLayout
             android:id="@+id/relativeLayout_latestListView_adapter12"
             android:layout_width="match_parent"
-            android:layout_height="220dp">
+            android:layout_height="200dp">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView_latestListView_adapter12"
-                android:layout_width="170dp"
+                android:layout_width="150dp"
                 app:cardCornerRadius="10dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp" />
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/doctor2"/>
 
             </androidx.cardview.widget.CardView>
 
@@ -186,20 +178,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:ellipsize="end"
-                    android:text="@string/app_name"
+                    android:text="@string/doctor2"
                     android:textColor="@color/textView_title_latestListView_adapter"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:ellipsize="end"
-                    android:maxLines="1"
-                    android:text="Format : Epub"
-                    android:textColor="@color/textView_subTitle_latestListView_adapter"
-                    android:textSize="14sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -214,6 +197,7 @@
                         android:layout_height="wrap_content"
                         android:isIndicator="true"
                         android:numStars="5"
+                        android:rating="4"
                         android:theme="@style/RatingBar" />
 
                     <RelativeLayout
@@ -235,7 +219,7 @@
                             android:paddingTop="2dp"
                             android:paddingRight="5dp"
                             android:paddingBottom="2dp"
-                            android:text="text"
+                            android:text="@string/doctor2views"
                             android:textColor="@color/textView_rate_latestListView_adapter" />
 
                     </RelativeLayout>
@@ -255,7 +239,7 @@
                         android:layout_gravity="center"
                         android:ellipsize="end"
                         android:maxLines="1"
-                        android:text="Tag: Collections"
+                        android:text="@string/location_doc2"
                         android:textColor="@color/textView_view_LatestListView_adapter"
                         android:textStyle="bold" />
 
@@ -273,9 +257,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="string/view_details"
-                    android:textColor="@color/textView_viewDetail_latestListView_adapter"
-                    android:textStyle="bold" />
+                    android:text="@string/io"
+                    android:textColor="@color/black_alpha_75"
+                     />
 
             </LinearLayout>
 
@@ -292,19 +276,20 @@
         <RelativeLayout
             android:id="@+id/relativeLayout_latestListView_adapter11"
             android:layout_width="match_parent"
-            android:layout_height="220dp">
+            android:layout_height="200dp">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView_latestListView_adapter11"
-                android:layout_width="170dp"
+                android:layout_width="150dp"
                 app:cardCornerRadius="10dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp" />
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/doctor3"/>
 
             </androidx.cardview.widget.CardView>
 
@@ -323,20 +308,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:ellipsize="end"
-                    android:text="@string/app_name"
+                    android:text="@string/doctor3"
                     android:textColor="@color/textView_title_latestListView_adapter"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:ellipsize="end"
-                    android:maxLines="1"
-                    android:text="Format : Epub"
-                    android:textColor="@color/textView_subTitle_latestListView_adapter"
-                    android:textSize="14sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -351,6 +326,7 @@
                         android:layout_height="wrap_content"
                         android:isIndicator="true"
                         android:numStars="5"
+                        android:rating="5"
                         android:theme="@style/RatingBar" />
 
                     <RelativeLayout
@@ -372,7 +348,7 @@
                             android:paddingTop="2dp"
                             android:paddingRight="5dp"
                             android:paddingBottom="2dp"
-                            android:text="text"
+                            android:text="@string/doctor3views"
                             android:textColor="@color/textView_rate_latestListView_adapter" />
 
                     </RelativeLayout>
@@ -392,7 +368,7 @@
                         android:layout_gravity="center"
                         android:ellipsize="end"
                         android:maxLines="1"
-                        android:text="Tag: Collections"
+                        android:text="@string/location_doc3"
                         android:textColor="@color/textView_view_LatestListView_adapter"
                         android:textStyle="bold" />
 
@@ -410,9 +386,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="string/view_details"
-                    android:textColor="@color/textView_viewDetail_latestListView_adapter"
-                    android:textStyle="bold" />
+                    android:text="@string/io"
+                    android:textColor="@color/black_alpha_75"/>
 
             </LinearLayout>
 
@@ -429,19 +404,20 @@
         <RelativeLayout
             android:id="@+id/relativeLayout_latestListView_adapter1"
             android:layout_width="match_parent"
-            android:layout_height="220dp">
+            android:layout_height="200dp">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView_latestListView_adapter01"
-                android:layout_width="170dp"
+                android:layout_width="150dp"
                 app:cardCornerRadius="10dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp" />
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/doctor4" />
 
             </androidx.cardview.widget.CardView>
 
@@ -460,20 +436,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:ellipsize="end"
-                    android:text="@string/app_name"
+                    android:text="@string/doctor4"
                     android:textColor="@color/textView_title_latestListView_adapter"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:ellipsize="end"
-                    android:maxLines="1"
-                    android:text="Format : Epub"
-                    android:textColor="@color/textView_subTitle_latestListView_adapter"
-                    android:textSize="14sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -488,6 +454,7 @@
                         android:layout_height="wrap_content"
                         android:isIndicator="true"
                         android:numStars="5"
+                        android:rating="3"
                         android:theme="@style/RatingBar" />
 
                     <RelativeLayout
@@ -509,7 +476,7 @@
                             android:paddingTop="2dp"
                             android:paddingRight="5dp"
                             android:paddingBottom="2dp"
-                            android:text="text"
+                            android:text="@string/doctor4views"
                             android:textColor="@color/textView_rate_latestListView_adapter" />
 
                     </RelativeLayout>
@@ -529,7 +496,7 @@
                         android:layout_gravity="center"
                         android:ellipsize="end"
                         android:maxLines="1"
-                        android:text="Tag: Collections"
+                        android:text="@string/location_doc4"
                         android:textColor="@color/textView_view_LatestListView_adapter"
                         android:textStyle="bold" />
 
@@ -547,9 +514,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="string/view_details"
-                    android:textColor="@color/textView_viewDetail_latestListView_adapter"
-                    android:textStyle="bold" />
+                    android:text="@string/io"
+                    android:textColor="@color/black_alpha_75" />
 
             </LinearLayout>
 
@@ -566,18 +532,19 @@
         <RelativeLayout
             android:id="@+id/relativeLayout_latestListView_adapter2"
             android:layout_width="match_parent"
-            android:layout_height="220dp">
+            android:layout_height="200dp">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView_latestListView_adapter2"
-                android:layout_width="170dp"
+                android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp" />
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/doctor5" />
 
             </androidx.cardview.widget.CardView>
 
@@ -597,21 +564,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:ellipsize="end"
-                    android:text="@string/app_name"
+                    android:text="@string/doctor5"
                     android:textColor="@color/textView_title_latestListView_adapter"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:ellipsize="end"
-                    android:maxLines="1"
-                    android:text="Format : Epub"
-                    android:textColor="@color/textView_subTitle_latestListView_adapter"
-                    android:textSize="14sp" />
 
                 <LinearLayout
 
@@ -628,6 +584,7 @@
                         android:layout_height="wrap_content"
                         android:isIndicator="true"
                         android:numStars="5"
+                        android:rating="5"
                         android:theme="@style/RatingBar" />
 
                     <RelativeLayout
@@ -649,7 +606,7 @@
                             android:paddingTop="2dp"
                             android:paddingRight="5dp"
                             android:paddingBottom="2dp"
-                            android:text="text"
+                            android:text="@string/doctor5views"
                             android:textColor="@color/textView_rate_latestListView_adapter" />
 
                     </RelativeLayout>
@@ -670,7 +627,7 @@
                         android:layout_gravity="center"
                         android:ellipsize="end"
                         android:maxLines="1"
-                        android:text="Tag: Collections"
+                        android:text="@string/location_doc5"
                         android:textColor="@color/textView_view_LatestListView_adapter"
                         android:textStyle="bold" />
 
@@ -689,9 +646,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="string/view_details"
-                    android:textColor="@color/textView_viewDetail_latestListView_adapter"
-                    android:textStyle="bold" />
+                    android:text="@string/io"
+                    android:textColor="@color/black_alpha_75" />
 
             </LinearLayout>
 
