@@ -19,6 +19,7 @@ import com.kiduyu.AnitaProject.neonatalapp.UserFargments.ChatFragment;
 import com.kiduyu.AnitaProject.neonatalapp.UserFargments.DoctorsFragment;
 import com.kiduyu.AnitaProject.neonatalapp.UserFargments.HomeFragment;
 import com.kiduyu.AnitaProject.neonatalapp.UserFargments.ProfileFragment;
+import com.kiduyu.AnitaProject.neonatalapp.UserFargments.TipsFragment;
 
 public class HomeActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
@@ -85,7 +86,7 @@ public class HomeActivity extends AppCompatActivity {
                 break;
             case R.id.tips:
                 txtActiontitle.setText("Health Tips");
-                fragment = new AppointmentFragment();
+                fragment = new TipsFragment();
                 callFragment(fragment);
 
                 break;

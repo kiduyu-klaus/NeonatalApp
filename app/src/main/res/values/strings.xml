@@ -27,5 +27,7 @@
     <string name="doctor5">Dr. Zachary Ochieng</string>
     <string name="location_doc5">Location: Muranga</string>
 
+
+    <string name="short_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
     <string name="io">Something To describe the doctor in question, something small and helpful like his/her place of work of a little back.....</string>
 </resources>
